@@ -1,0 +1,1486 @@
+{
+  "type": "program",
+  "program_id": "a_mountain_of_crapp_dc_md_plan",
+  "program": {
+    "name": "A Mountain of Crapp — Sample DC + MD Training Plan",
+    "author": null,
+    "version": "1.0",
+    "description": "Hybrid DoggCrapp (DC) + Mountain Dog (MD) template featuring Base and Pump sessions.",
+    "philosophy": "Base sessions emphasize DC-style rest-pause and heavy work; Pump sessions emphasize MD-style high-rep, supersets, and specialty methods.",
+    "notes": [
+      "Weekly schedule rotates Base A1/B1/A2/B2 with Pump (Arms, Delts/Abs) over a 4-week repeating calendar."
+    ]
+  },
+  "split_overview": "Base Sessions A1/B1/A2/B2 + Pump Sessions (Arms, Delts/Abs). 4-week repeating schedule with OFF days.",
+  "schedule": {
+    "rotation": [
+      "Base A1",
+      "Base B1",
+      "Delts/Abs",
+      "Off",
+      "Base A2",
+      "Arms",
+      "Off"
+    ],
+    "calendar_map": null
+  },
+  "calendar": {
+    "weeks": 4,
+    "repeatable": true,
+    "rest_guidance": "OFF days as prescribed in schedule; use for recovery or light cardio/mobility as needed.",
+    "deload_rules": null
+  },
+  "progression_rules": [],
+  "globals": {
+    "superset_conventions": "Use 'superset_with' to pair exercises by ordinal; perform paired moves back-to-back.",
+    "warmup_guidance": null,
+    "accessory_policy": null
+  },
+  "workouts": [
+    {
+      "type": "workout",
+      "workout_id": "base_a1",
+      "meta": {
+        "title": "Base Session A1",
+        "week": null,
+        "day_name": null,
+        "muscle_focus": [
+          "Chest",
+          "Delts",
+          "Back"
+        ],
+        "tags": [
+          "Base",
+          "DC"
+        ]
+      },
+      "goals": [
+        "Heavy DC-style top work and back thickness/width"
+      ],
+      "notes": null,
+      "exercises": [
+        {
+          "ordinal": 1,
+          "name": "Low to high cable flye",
+          "tags": [
+            "chest",
+            "isolation"
+          ],
+          "sets": [
+            {
+              "label": "Set 1",
+              "scheme": {
+                "type": "range",
+                "sets": 1,
+                "reps_min": 8,
+                "reps_max": 12,
+                "load": null
+              },
+              "rest_seconds": null,
+              "cues": null
+            },
+            {
+              "label": "Set 2",
+              "scheme": {
+                "type": "fixed",
+                "sets": 1,
+                "reps": 15,
+                "load": null
+              },
+              "rest_seconds": null,
+              "cues": [
+                "15+ reps per plan; stop near failure with good form"
+              ]
+            }
+          ],
+          "links": null,
+          "superset_with": null
+        },
+        {
+          "ordinal": 2,
+          "name": "Reverse band incline bench",
+          "tags": [
+            "chest",
+            "compound",
+            "rest-pause"
+          ],
+          "sets": [
+            {
+              "label": "RP set",
+              "scheme": {
+                "type": "rest_pause",
+                "sets": 1,
+                "first_set_reps": null,
+                "mini_reps": null,
+                "mini_sets": null,
+                "rest_between_mini_s": 20,
+                "target_total_reps": null,
+                "load": null,
+                "notes": "DC-style rest-pause"
+              },
+              "rest_seconds": null,
+              "cues": [
+                "DC-style: near-failure, short rests, small mini-sets"
+              ]
+            }
+          ],
+          "links": null,
+          "superset_with": null
+        },
+        {
+          "ordinal": 3,
+          "name": "Hammer shoulder press",
+          "tags": [
+            "delts",
+            "compound",
+            "rest-pause"
+          ],
+          "sets": [
+            {
+              "label": "RP set",
+              "scheme": {
+                "type": "rest_pause",
+                "sets": 1,
+                "first_set_reps": null,
+                "mini_reps": null,
+                "mini_sets": null,
+                "rest_between_mini_s": 20,
+                "target_total_reps": null,
+                "load": null,
+                "notes": "DC-style rest-pause"
+              },
+              "rest_seconds": null,
+              "cues": [
+                "Keep shoulders depressed; control negatives"
+              ]
+            }
+          ],
+          "links": null,
+          "superset_with": null
+        },
+        {
+          "ordinal": 4,
+          "name": "Stretch pecs & delts",
+          "tags": [
+            "stretch"
+          ],
+          "sets": [],
+          "links": null,
+          "superset_with": null
+        },
+        {
+          "ordinal": 5,
+          "name": "Straight-arm pushdown",
+          "tags": [
+            "lats",
+            "isolation"
+          ],
+          "sets": [
+            {
+              "label": "High-rep set",
+              "scheme": {
+                "type": "fixed",
+                "sets": 1,
+                "reps": 15,
+                "load": null
+              },
+              "rest_seconds": null,
+              "cues": [
+                "15+ reps per plan; keep scapulae set and ribs down"
+              ]
+            }
+          ],
+          "links": null,
+          "superset_with": null
+        },
+        {
+          "ordinal": 6,
+          "name": "Wide-grip pulldown",
+          "tags": [
+            "back",
+            "width",
+            "rest-pause"
+          ],
+          "sets": [
+            {
+              "label": "RP set",
+              "scheme": {
+                "type": "rest_pause",
+                "sets": 1,
+                "first_set_reps": null,
+                "mini_reps": null,
+                "mini_sets": null,
+                "rest_between_mini_s": 20,
+                "target_total_reps": null,
+                "load": null,
+                "notes": "DC-style rest-pause"
+              },
+              "rest_seconds": null,
+              "cues": [
+                "Drive elbows to hips; avoid momentum"
+              ]
+            }
+          ],
+          "links": null,
+          "superset_with": null
+        },
+        {
+          "ordinal": 7,
+          "name": "T-bar row",
+          "tags": [
+            "back",
+            "thickness",
+            "compound"
+          ],
+          "sets": [
+            {
+              "label": "Set 1",
+              "scheme": {
+                "type": "range",
+                "sets": 1,
+                "reps_min": 5,
+                "reps_max": 8,
+                "load": null
+              },
+              "rest_seconds": null,
+              "cues": null
+            },
+            {
+              "label": "Set 2",
+              "scheme": {
+                "type": "range",
+                "sets": 1,
+                "reps_min": 10,
+                "reps_max": 12,
+                "load": null
+              },
+              "rest_seconds": null,
+              "cues": null
+            }
+          ],
+          "links": null,
+          "superset_with": null
+        },
+        {
+          "ordinal": 8,
+          "name": "Stretch lats",
+          "tags": [
+            "stretch"
+          ],
+          "sets": [],
+          "links": null,
+          "superset_with": null
+        }
+      ],
+      "optional_blocks": null
+    },
+    {
+      "type": "workout",
+      "workout_id": "base_b1",
+      "meta": {
+        "title": "Base Session B1",
+        "week": null,
+        "day_name": null,
+        "muscle_focus": [
+          "Calves",
+          "Hamstrings",
+          "Quads"
+        ],
+        "tags": [
+          "Base",
+          "DC"
+        ]
+      },
+      "goals": [
+        "Lower focus with DC rest-pause and a widowmaker"
+      ],
+      "notes": null,
+      "exercises": [
+        {
+          "ordinal": 1,
+          "name": "Seated calf raise",
+          "tags": [
+            "calves",
+            "rest-pause"
+          ],
+          "sets": [
+            {
+              "label": "RP set",
+              "scheme": {
+                "type": "rest_pause",
+                "sets": 1,
+                "first_set_reps": null,
+                "mini_reps": null,
+                "mini_sets": null,
+                "rest_between_mini_s": 20,
+                "target_total_reps": null,
+                "load": null,
+                "notes": "DC-style rest-pause; full stretch at bottom"
+              },
+              "rest_seconds": null,
+              "cues": [
+                "Pause in stretched position"
+              ]
+            }
+          ],
+          "links": null,
+          "superset_with": null
+        },
+        {
+          "ordinal": 2,
+          "name": "Unilateral hamstring curl",
+          "tags": [
+            "hamstrings",
+            "isolation"
+          ],
+          "sets": [
+            {
+              "label": "Set 1",
+              "scheme": {
+                "type": "range",
+                "sets": 1,
+                "reps_min": 8,
+                "reps_max": 12,
+                "load": null
+              },
+              "rest_seconds": null,
+              "cues": [
+                "Per side"
+              ]
+            },
+            {
+              "label": "Set 2",
+              "scheme": {
+                "type": "fixed",
+                "sets": 1,
+                "reps": 15,
+                "load": null
+              },
+              "rest_seconds": null,
+              "cues": [
+                "15+ reps per plan; per side"
+              ]
+            }
+          ],
+          "links": null,
+          "superset_with": null
+        },
+        {
+          "ordinal": 3,
+          "name": "Wide grip RDL",
+          "tags": [
+            "hamstrings",
+            "glutes",
+            "lower back",
+            "compound"
+          ],
+          "sets": [
+            {
+              "label": "Set 1",
+              "scheme": {
+                "type": "range",
+                "sets": 1,
+                "reps_min": 5,
+                "reps_max": 8,
+                "load": null
+              },
+              "rest_seconds": null,
+              "cues": null
+            },
+            {
+              "label": "Set 2",
+              "scheme": {
+                "type": "range",
+                "sets": 1,
+                "reps_min": 10,
+                "reps_max": 12,
+                "load": null
+              },
+              "rest_seconds": null,
+              "cues": null
+            }
+          ],
+          "links": null,
+          "superset_with": null
+        },
+        {
+          "ordinal": 4,
+          "name": "Stretch hamstrings",
+          "tags": [
+            "stretch"
+          ],
+          "sets": [],
+          "links": null,
+          "superset_with": null
+        },
+        {
+          "ordinal": 5,
+          "name": "Leg press",
+          "tags": [
+            "quads",
+            "compound",
+            "rest-pause"
+          ],
+          "sets": [
+            {
+              "label": "RP set",
+              "scheme": {
+                "type": "rest_pause",
+                "sets": 1,
+                "first_set_reps": null,
+                "mini_reps": null,
+                "mini_sets": null,
+                "rest_between_mini_s": 20,
+                "target_total_reps": null,
+                "load": null,
+                "notes": "DC-style rest-pause"
+              },
+              "rest_seconds": null,
+              "cues": [
+                "Controlled depth; do not bounce"
+              ]
+            }
+          ],
+          "links": null,
+          "superset_with": null
+        },
+        {
+          "ordinal": 6,
+          "name": "Hack squat",
+          "tags": [
+            "quads",
+            "widowmaker"
+          ],
+          "sets": [
+            {
+              "label": "Widowmaker",
+              "scheme": {
+                "type": "widowmaker",
+                "sets": 1,
+                "target_reps_min": 20,
+                "to_failure": true,
+                "load": null,
+                "notes": "20+ rep set"
+              },
+              "rest_seconds": null,
+              "cues": [
+                "Breathe between reps as needed; maintain form"
+              ]
+            }
+          ],
+          "links": null,
+          "superset_with": null
+        },
+        {
+          "ordinal": 7,
+          "name": "Stretch quads",
+          "tags": [
+            "stretch"
+          ],
+          "sets": [],
+          "links": null,
+          "superset_with": null
+        },
+        {
+          "ordinal": 8,
+          "name": "Adductor machine",
+          "tags": [
+            "adductors",
+            "isolation"
+          ],
+          "sets": [
+            {
+              "label": null,
+              "scheme": {
+                "type": "fixed",
+                "sets": 2,
+                "reps": 15,
+                "load": null
+              },
+              "rest_seconds": null,
+              "cues": null
+            }
+          ],
+          "links": null,
+          "superset_with": null
+        },
+        {
+          "ordinal": 9,
+          "name": "Abductor machine",
+          "tags": [
+            "abductors",
+            "isolation"
+          ],
+          "sets": [
+            {
+              "label": null,
+              "scheme": {
+                "type": "fixed",
+                "sets": 2,
+                "reps": 15,
+                "load": null
+              },
+              "rest_seconds": null,
+              "cues": null
+            }
+          ],
+          "links": null,
+          "superset_with": null
+        }
+      ],
+      "optional_blocks": null
+    },
+    {
+      "type": "workout",
+      "workout_id": "base_a2",
+      "meta": {
+        "title": "Base Session A2",
+        "week": null,
+        "day_name": null,
+        "muscle_focus": [
+          "Chest",
+          "Delts",
+          "Back"
+        ],
+        "tags": [
+          "Base",
+          "DC"
+        ]
+      },
+      "goals": [
+        "Upper focus with DC rest-pause and back thickness/width"
+      ],
+      "notes": null,
+      "exercises": [
+        {
+          "ordinal": 1,
+          "name": "Svend press",
+          "tags": [
+            "chest",
+            "isolation"
+          ],
+          "sets": [
+            {
+              "label": "Set 1",
+              "scheme": {
+                "type": "range",
+                "sets": 1,
+                "reps_min": 8,
+                "reps_max": 12,
+                "load": null
+              },
+              "rest_seconds": null,
+              "cues": null
+            },
+            {
+              "label": "Set 2",
+              "scheme": {
+                "type": "range",
+                "sets": 1,
+                "reps_min": 15,
+                "reps_max": 20,
+                "load": null
+              },
+              "rest_seconds": null,
+              "cues": null
+            }
+          ],
+          "links": null,
+          "superset_with": null
+        },
+        {
+          "ordinal": 2,
+          "name": "Close-grip flat pin press",
+          "tags": [
+            "triceps",
+            "chest",
+            "compound",
+            "rest-pause"
+          ],
+          "sets": [
+            {
+              "label": "RP set",
+              "scheme": {
+                "type": "rest_pause",
+                "sets": 1,
+                "first_set_reps": null,
+                "mini_reps": null,
+                "mini_sets": null,
+                "rest_between_mini_s": 20,
+                "target_total_reps": null,
+                "load": null,
+                "notes": "DC-style rest-pause"
+              },
+              "rest_seconds": null,
+              "cues": [
+                "Pin height prevents sticking point bouncing"
+              ]
+            }
+          ],
+          "links": null,
+          "superset_with": null
+        },
+        {
+          "ordinal": 3,
+          "name": "Standing overhead press",
+          "tags": [
+            "delts",
+            "compound",
+            "rest-pause"
+          ],
+          "sets": [
+            {
+              "label": "RP set",
+              "scheme": {
+                "type": "rest_pause",
+                "sets": 1,
+                "first_set_reps": null,
+                "mini_reps": null,
+                "mini_sets": null,
+                "rest_between_mini_s": 20,
+                "target_total_reps": null,
+                "load": null,
+                "notes": "DC-style rest-pause"
+              },
+              "rest_seconds": null,
+              "cues": [
+                "Brace hard; no layback"
+              ]
+            }
+          ],
+          "links": null,
+          "superset_with": null
+        },
+        {
+          "ordinal": 4,
+          "name": "Stretch pecs & delts",
+          "tags": [
+            "stretch"
+          ],
+          "sets": [],
+          "links": null,
+          "superset_with": null
+        },
+        {
+          "ordinal": 5,
+          "name": "Dumbbell pullover",
+          "tags": [
+            "lats",
+            "chest",
+            "isolation"
+          ],
+          "sets": [
+            {
+              "label": null,
+              "scheme": {
+                "type": "range",
+                "sets": 1,
+                "reps_min": 15,
+                "reps_max": 20,
+                "load": null
+              },
+              "rest_seconds": null,
+              "cues": [
+                "Deep stretch; controlled arc"
+              ]
+            }
+          ],
+          "links": null,
+          "superset_with": null
+        },
+        {
+          "ordinal": 6,
+          "name": "Rack chin",
+          "tags": [
+            "back",
+            "width",
+            "rest-pause"
+          ],
+          "sets": [
+            {
+              "label": "RP set",
+              "scheme": {
+                "type": "rest_pause",
+                "sets": 1,
+                "first_set_reps": null,
+                "mini_reps": null,
+                "mini_sets": null,
+                "rest_between_mini_s": 20,
+                "target_total_reps": null,
+                "load": null,
+                "notes": "DC-style rest-pause"
+              },
+              "rest_seconds": null,
+              "cues": [
+                "Pull chest to bar; keep legs out front"
+              ]
+            }
+          ],
+          "links": null,
+          "superset_with": null
+        },
+        {
+          "ordinal": 7,
+          "name": "Barbell row",
+          "tags": [
+            "back",
+            "thickness",
+            "compound"
+          ],
+          "sets": [
+            {
+              "label": "Set 1",
+              "scheme": {
+                "type": "range",
+                "sets": 1,
+                "reps_min": 5,
+                "reps_max": 8,
+                "load": null
+              },
+              "rest_seconds": null,
+              "cues": null
+            },
+            {
+              "label": "Set 2",
+              "scheme": {
+                "type": "range",
+                "sets": 1,
+                "reps_min": 10,
+                "reps_max": 12,
+                "load": null
+              },
+              "rest_seconds": null,
+              "cues": null
+            }
+          ],
+          "links": null,
+          "superset_with": null
+        },
+        {
+          "ordinal": 8,
+          "name": "Stretch lats",
+          "tags": [
+            "stretch"
+          ],
+          "sets": [],
+          "links": null,
+          "superset_with": null
+        }
+      ],
+      "optional_blocks": null
+    },
+    {
+      "type": "workout",
+      "workout_id": "base_b2",
+      "meta": {
+        "title": "Base Session B2",
+        "week": null,
+        "day_name": null,
+        "muscle_focus": [
+          "Calves",
+          "Hamstrings",
+          "Quads"
+        ],
+        "tags": [
+          "Base",
+          "DC"
+        ]
+      },
+      "goals": [
+        "Lower focus with DC rest-pause and a widowmaker"
+      ],
+      "notes": null,
+      "exercises": [
+        {
+          "ordinal": 1,
+          "name": "Standing calf raise",
+          "tags": [
+            "calves",
+            "rest-pause"
+          ],
+          "sets": [
+            {
+              "label": "RP set",
+              "scheme": {
+                "type": "rest_pause",
+                "sets": 1,
+                "first_set_reps": null,
+                "mini_reps": null,
+                "mini_sets": null,
+                "rest_between_mini_s": 20,
+                "target_total_reps": null,
+                "load": null,
+                "notes": "DC-style rest-pause; long stretch"
+              },
+              "rest_seconds": null,
+              "cues": [
+                "Pause in stretch"
+              ]
+            }
+          ],
+          "links": null,
+          "superset_with": null
+        },
+        {
+          "ordinal": 2,
+          "name": "Lying hamstring curl",
+          "tags": [
+            "hamstrings",
+            "isolation"
+          ],
+          "sets": [
+            {
+              "label": "Set 1",
+              "scheme": {
+                "type": "range",
+                "sets": 1,
+                "reps_min": 8,
+                "reps_max": 12,
+                "load": null
+              },
+              "rest_seconds": null,
+              "cues": null
+            },
+            {
+              "label": "Set 2",
+              "scheme": {
+                "type": "range",
+                "sets": 1,
+                "reps_min": 15,
+                "reps_max": 20,
+                "load": null
+              },
+              "rest_seconds": null,
+              "cues": null
+            }
+          ],
+          "links": null,
+          "superset_with": null
+        },
+        {
+          "ordinal": 3,
+          "name": "GHR",
+          "tags": [
+            "hamstrings",
+            "posterior chain"
+          ],
+          "sets": [
+            {
+              "label": "GHR AMRAP",
+              "scheme": {
+                "type": "custom",
+                "name": "amrap_sets",
+                "parameters": [
+                  {
+                    "key": "sets",
+                    "value_str": null,
+                    "value_num": 5.0,
+                    "value_bool": null
+                  },
+                  {
+                    "key": "amrap",
+                    "value_str": null,
+                    "value_num": null,
+                    "value_bool": true
+                  }
+                ],
+                "description": "5 sets to near-failure"
+              },
+              "rest_seconds": null,
+              "cues": [
+                "Full hip extension; control descent"
+              ]
+            }
+          ],
+          "links": null,
+          "superset_with": null
+        },
+        {
+          "ordinal": 4,
+          "name": "Stretch hamstrings",
+          "tags": [
+            "stretch"
+          ],
+          "sets": [],
+          "links": null,
+          "superset_with": null
+        },
+        {
+          "ordinal": 5,
+          "name": "Safety bar pause squat",
+          "tags": [
+            "quads",
+            "glutes",
+            "compound"
+          ],
+          "sets": [
+            {
+              "label": "Set 1 (paused)",
+              "scheme": {
+                "type": "range",
+                "sets": 1,
+                "reps_min": 5,
+                "reps_max": 8,
+                "load": null
+              },
+              "rest_seconds": null,
+              "cues": [
+                "Brief pause in hole"
+              ]
+            },
+            {
+              "label": "Set 2",
+              "scheme": {
+                "type": "range",
+                "sets": 1,
+                "reps_min": 10,
+                "reps_max": 12,
+                "load": null
+              },
+              "rest_seconds": null,
+              "cues": null
+            }
+          ],
+          "links": null,
+          "superset_with": null
+        },
+        {
+          "ordinal": 6,
+          "name": "Hack squat",
+          "tags": [
+            "quads",
+            "widowmaker"
+          ],
+          "sets": [
+            {
+              "label": "Widowmaker",
+              "scheme": {
+                "type": "widowmaker",
+                "sets": 1,
+                "target_reps_min": 20,
+                "to_failure": true,
+                "load": null,
+                "notes": "20+ rep set"
+              },
+              "rest_seconds": null,
+              "cues": [
+                "Breathe at top as needed"
+              ]
+            }
+          ],
+          "links": null,
+          "superset_with": null
+        },
+        {
+          "ordinal": 7,
+          "name": "Stretch quads",
+          "tags": [
+            "stretch"
+          ],
+          "sets": [],
+          "links": null,
+          "superset_with": null
+        },
+        {
+          "ordinal": 8,
+          "name": "Adductor machine",
+          "tags": [
+            "adductors",
+            "isolation"
+          ],
+          "sets": [
+            {
+              "label": null,
+              "scheme": {
+                "type": "fixed",
+                "sets": 2,
+                "reps": 15,
+                "load": null
+              },
+              "rest_seconds": null,
+              "cues": null
+            }
+          ],
+          "links": null,
+          "superset_with": null
+        },
+        {
+          "ordinal": 9,
+          "name": "Abductor machine",
+          "tags": [
+            "abductors",
+            "isolation"
+          ],
+          "sets": [
+            {
+              "label": null,
+              "scheme": {
+                "type": "fixed",
+                "sets": 2,
+                "reps": 15,
+                "load": null
+              },
+              "rest_seconds": null,
+              "cues": null
+            }
+          ],
+          "links": null,
+          "superset_with": null
+        }
+      ],
+      "optional_blocks": null
+    },
+    {
+      "type": "workout",
+      "workout_id": "pump_arms",
+      "meta": {
+        "title": "Pump Session — Arms",
+        "week": null,
+        "day_name": null,
+        "muscle_focus": [
+          "Biceps",
+          "Triceps"
+        ],
+        "tags": [
+          "Pump",
+          "MD"
+        ]
+      },
+      "goals": [
+        "High-rep pump work and BFR finisher"
+      ],
+      "notes": null,
+      "exercises": [
+        {
+          "ordinal": 1,
+          "name": "Single-arm pushdown",
+          "tags": [
+            "triceps",
+            "isolation"
+          ],
+          "sets": [
+            {
+              "label": "Set 1",
+              "scheme": {
+                "type": "fixed",
+                "sets": 1,
+                "reps": 20,
+                "load": null
+              },
+              "rest_seconds": null,
+              "cues": [
+                "Per arm"
+              ]
+            },
+            {
+              "label": "Set 2",
+              "scheme": {
+                "type": "fixed",
+                "sets": 1,
+                "reps": 15,
+                "load": null
+              },
+              "rest_seconds": null,
+              "cues": [
+                "Per arm"
+              ]
+            },
+            {
+              "label": "Set 3",
+              "scheme": {
+                "type": "fixed",
+                "sets": 1,
+                "reps": 12,
+                "load": null
+              },
+              "rest_seconds": null,
+              "cues": [
+                "Per arm"
+              ]
+            },
+            {
+              "label": "Set 4",
+              "scheme": {
+                "type": "fixed",
+                "sets": 1,
+                "reps": 10,
+                "load": null
+              },
+              "rest_seconds": null,
+              "cues": [
+                "Per arm"
+              ]
+            }
+          ],
+          "links": null,
+          "superset_with": null
+        },
+        {
+          "ordinal": 2,
+          "name": "Weighted triceps dip",
+          "tags": [
+            "triceps",
+            "compound"
+          ],
+          "sets": [
+            {
+              "label": "AMRAP sets",
+              "scheme": {
+                "type": "custom",
+                "name": "amrap_sets",
+                "parameters": [
+                  {
+                    "key": "sets",
+                    "value_str": null,
+                    "value_num": 5.0,
+                    "value_bool": null
+                  },
+                  {
+                    "key": "amrap",
+                    "value_str": null,
+                    "value_num": null,
+                    "value_bool": true
+                  }
+                ],
+                "description": "5 AMRAP sets"
+              },
+              "rest_seconds": null,
+              "cues": [
+                "Leave 0-1 reps in reserve on early sets"
+              ]
+            }
+          ],
+          "links": null,
+          "superset_with": null
+        },
+        {
+          "ordinal": 3,
+          "name": "Barbell curl",
+          "tags": [
+            "biceps",
+            "isolation",
+            "superset"
+          ],
+          "sets": [
+            {
+              "label": "Superset x3",
+              "scheme": {
+                "type": "range",
+                "sets": 3,
+                "reps_min": 8,
+                "reps_max": 12,
+                "load": null
+              },
+              "rest_seconds": null,
+              "cues": [
+                "Superset with Skullcrusher"
+              ]
+            }
+          ],
+          "links": null,
+          "superset_with": 4
+        },
+        {
+          "ordinal": 4,
+          "name": "Skullcrusher",
+          "tags": [
+            "triceps",
+            "isolation",
+            "superset"
+          ],
+          "sets": [
+            {
+              "label": "Superset x3",
+              "scheme": {
+                "type": "range",
+                "sets": 3,
+                "reps_min": 8,
+                "reps_max": 12,
+                "load": null
+              },
+              "rest_seconds": null,
+              "cues": [
+                "Superset with Barbell curl"
+              ]
+            }
+          ],
+          "links": null,
+          "superset_with": 3
+        },
+        {
+          "ordinal": 5,
+          "name": "Alternating hammer curl",
+          "tags": [
+            "biceps",
+            "brachialis",
+            "isolation"
+          ],
+          "sets": [
+            {
+              "label": null,
+              "scheme": {
+                "type": "fixed",
+                "sets": 2,
+                "reps": 20,
+                "load": null
+              },
+              "rest_seconds": null,
+              "cues": [
+                "Per arm; continuous tension"
+              ]
+            }
+          ],
+          "links": null,
+          "superset_with": null
+        },
+        {
+          "ordinal": 6,
+          "name": "BFR bicep/tricep superset (choose movements)",
+          "tags": [
+            "BFR",
+            "superset",
+            "finisher"
+          ],
+          "sets": [
+            {
+              "label": "BFR sequence",
+              "scheme": {
+                "type": "custom",
+                "name": "bfr_superset",
+                "parameters": [
+                  {
+                    "key": "sequence",
+                    "value_str": "30,30,15,15",
+                    "value_num": null,
+                    "value_bool": null
+                  }
+                ],
+                "description": "Blood flow restriction: 30,30,15,15 reps per movement"
+              },
+              "rest_seconds": null,
+              "cues": [
+                "Short rests; maintain occlusion safely"
+              ]
+            }
+          ],
+          "links": null,
+          "superset_with": null
+        }
+      ],
+      "optional_blocks": null
+    },
+    {
+      "type": "workout",
+      "workout_id": "pump_delts_abs",
+      "meta": {
+        "title": "Pump Session — Delts/Abs",
+        "week": null,
+        "day_name": null,
+        "muscle_focus": [
+          "Delts",
+          "Abs"
+        ],
+        "tags": [
+          "Pump",
+          "MD"
+        ]
+      },
+      "goals": [
+        "Delts pump and ab bracing work"
+      ],
+      "notes": [
+        "Line item 'Shotgun to the Dick!' included as specialty movement placeholder.",
+        "Overhead press line shows 'x10-12, 28'; second prescription is unclear—perform additional back-off work per coaching."
+      ],
+      "exercises": [
+        {
+          "ordinal": 1,
+          "name": "Lateral raise",
+          "tags": [
+            "delts",
+            "isolation",
+            "drop-set"
+          ],
+          "sets": [
+            {
+              "label": "Run-the-rack",
+              "scheme": {
+                "type": "drop_set",
+                "sets": 2,
+                "drops": 4,
+                "drop_frac": null
+              },
+              "rest_seconds": null,
+              "cues": [
+                "Run the rack; minimal rest between drops"
+              ]
+            }
+          ],
+          "links": null,
+          "superset_with": null
+        },
+        {
+          "ordinal": 2,
+          "name": "Rear delt swing",
+          "tags": [
+            "delts",
+            "rear delts",
+            "isolation"
+          ],
+          "sets": [
+            {
+              "label": "Set 1",
+              "scheme": {
+                "type": "range",
+                "sets": 1,
+                "reps_min": 6,
+                "reps_max": 8,
+                "load": null
+              },
+              "rest_seconds": null,
+              "cues": null
+            },
+            {
+              "label": "Set 2",
+              "scheme": {
+                "type": "range",
+                "sets": 1,
+                "reps_min": 12,
+                "reps_max": 15,
+                "load": null
+              },
+              "rest_seconds": null,
+              "cues": null
+            }
+          ],
+          "links": null,
+          "superset_with": null
+        },
+        {
+          "ordinal": 3,
+          "name": "Any overhead press",
+          "tags": [
+            "delts",
+            "compound"
+          ],
+          "sets": [
+            {
+              "label": "Primary set",
+              "scheme": {
+                "type": "range",
+                "sets": 1,
+                "reps_min": 10,
+                "reps_max": 12,
+                "load": null
+              },
+              "rest_seconds": null,
+              "cues": [
+                "Additional back-off work indicated but unclear ('28')"
+              ]
+            }
+          ],
+          "links": null,
+          "superset_with": null
+        },
+        {
+          "ordinal": 4,
+          "name": "Shotgun to the Dick!",
+          "tags": [
+            "specialty"
+          ],
+          "sets": [],
+          "links": null,
+          "superset_with": null
+        },
+        {
+          "ordinal": 5,
+          "name": "Vacuum holds",
+          "tags": [
+            "abs",
+            "bracing"
+          ],
+          "sets": [
+            {
+              "label": "Max-time holds",
+              "scheme": {
+                "type": "timed_hold",
+                "sets": 3,
+                "duration_s": 10
+              },
+              "rest_seconds": null,
+              "cues": [
+                "Max time per set; duration placeholder"
+              ]
+            }
+          ],
+          "links": null,
+          "superset_with": null
+        },
+        {
+          "ordinal": 6,
+          "name": "Vacuum hold (superset)",
+          "tags": [
+            "abs",
+            "bracing",
+            "superset"
+          ],
+          "sets": [
+            {
+              "label": "Superset",
+              "scheme": {
+                "type": "timed_hold",
+                "sets": 1,
+                "duration_s": 10
+              },
+              "rest_seconds": null,
+              "cues": [
+                "Max time hold; paired with Ab mat crunch"
+              ]
+            }
+          ],
+          "links": null,
+          "superset_with": 7
+        },
+        {
+          "ordinal": 7,
+          "name": "Ab mat crunch",
+          "tags": [
+            "abs",
+            "superset"
+          ],
+          "sets": [
+            {
+              "label": "Superset AMRAP",
+              "scheme": {
+                "type": "custom",
+                "name": "amrap_sets",
+                "parameters": [
+                  {
+                    "key": "sets",
+                    "value_str": null,
+                    "value_num": 1.0,
+                    "value_bool": null
+                  },
+                  {
+                    "key": "amrap",
+                    "value_str": null,
+                    "value_num": null,
+                    "value_bool": true
+                  }
+                ],
+                "description": "AMRAP in superset"
+              },
+              "rest_seconds": null,
+              "cues": [
+                "Control tempo; stop near failure"
+              ]
+            }
+          ],
+          "links": null,
+          "superset_with": 6
+        }
+      ],
+      "optional_blocks": null
+    }
+  ]
+}
